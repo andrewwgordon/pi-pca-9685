@@ -1,10 +1,10 @@
-# Raspberry Pi TDK InvenSense MPU-6050 Driver
-User mode driver for [TDK InvenSense MPU-6050]
+# Raspberry Pi NXP PCA9685 User Mode Driver
+User mode driver for [PCA9685: 16-channel, 12-bit PWM Fm+ I²C-bus LED controller]
 
 ### Build & Run Example
 ```bash
-$ gcc mpu6050-example.c -o mpu6050-example
+$ gcc pca9685-example.c -o pca9685-example
 ```
 ### API
 
-[TDK InvenSense MPU-6050]: https://invensense.tdk.com/products/motion-tracking/6-axis/mpu-6050/
+[PCA9685: 16-channel, 12-bit PWM Fm+ I²C-bus LED controller]: https://www.nxp.com/products/power-management/lighting-driver-and-controller-ics/ic-led-controllers/16-channel-12-bit-pwm-fm-plus-ic-bus-led-controller:PCA9685
