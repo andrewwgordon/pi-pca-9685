@@ -4,7 +4,7 @@
 
 #include "pca9685.h"
 
-#define SERVO_MIN   (150)
+#define SERVO_MIN   (100)
 #define SERVO_MAX   (600)
 
 int
@@ -47,6 +47,7 @@ main(void)
     }
     // Continously cycle a servo on channel 0 between MIN and MAX pulse widths.
     //
+    printf("Cycling channel 0 between %d and %d...\n",SERVO_MIN,SERVO_MAX);
     while (true)
     {
         if (pca9685_setpwm(pca9685_h,0,0,SERVO_MIN) == ERROR)
