@@ -40,7 +40,7 @@ main(void)
         perror("Error");
         return errno;
     }
-    if (pca9685_setfreq(pca9685_h,50) == ERROR)
+    if (pca9685_setfreq(pca9685_h,60) == ERROR)
     {
         perror("Error");
         return errno;
