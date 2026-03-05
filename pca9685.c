@@ -162,7 +162,7 @@ pca9685_setallpwm(int16_t pca9685_h,uint16_t on, uint16_t off)
 *   @return Success or error.
 */
 int8_t
-pca9685_setfreq(int16_t pca9685_h,uint8_t freq)
+pca9685_setfreq(int16_t pca9685_h,uint16_t freq)
 {
     uint8_t newmode;
     uint8_t oldmode;
